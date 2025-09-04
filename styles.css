@@ -1,0 +1,46 @@
+body {
+	background: rgb(211, 211, 211);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	font-size: 22px;
+}
+p {
+	color: green;
+	font-size: 18px;
+}
+
+.container {
+	background: rgb(211, 211, 211);
+	max-width: 500px;
+	margin: auto;
+}
+.card {
+    align-items: center;
+    background: rgb(211, 211, 211);
+}
+.card-image img {
+    width: 100%;
+    display: block;
+}
+.card-header {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    background-color: white;
+	padding: 10px;
+    font-size: 18px;
+}
+.card-feed {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    background-color: white;
+	margin-bottom: 20px;
+	padding: 10px;
+    font-size: 18px;
+}
