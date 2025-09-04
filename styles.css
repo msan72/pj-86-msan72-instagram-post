@@ -31,7 +31,7 @@ p {
     display: block;
 }
 .card-icon {
-	display: flex;
+	display: float;
 	justify-content: space-between;
     align-items: center;
 	background-color: white;
