@@ -19,21 +19,23 @@ p {
 	max-width: 500px;
 	margin: auto;
 }
-.card {
-    align-items: center;
-    background: rgb(211, 211, 211);
-}
-.card-image img {
-    width: 100%;
-    display: block;
-}
 .card-header {
 	display: flex;
 	justify-content: space-between;
     align-items: center;
     background-color: white;
 	padding: 10px;
-    font-size: 18px;
+}
+.card-image img {
+    width: 100%;
+    display: block;
+}
+.card-icon {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	background-color: white;
+	padding: 10px;
 }
 .card-feed {
 	display: flex;
